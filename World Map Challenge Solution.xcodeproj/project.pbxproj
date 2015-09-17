@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E24AB21BAB46E500001E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24AB11BAB46E500001E8F /* Foundation.framework */; };
+		D4E24AB41BAB46E500001E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24AB31BAB46E500001E8F /* CoreGraphics.framework */; };
+		D4E24AB61BAB46E500001E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24AB51BAB46E500001E8F /* UIKit.framework */; };
+		D4E24ABC1BAB46E500001E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E24ABA1BAB46E500001E8F /* InfoPlist.strings */; };
+		D4E24ABE1BAB46E500001E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24ABD1BAB46E500001E8F /* main.m */; };
+		D4E24AC21BAB46E500001E8F /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24AC11BAB46E500001E8F /* CCAppDelegate.m */; };
+		D4E24AC51BAB46E500001E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E24AC31BAB46E500001E8F /* Main.storyboard */; };
+		D4E24AC81BAB46E500001E8F /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24AC71BAB46E500001E8F /* CCViewController.m */; };
+		D4E24ACA1BAB46E500001E8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E24AC91BAB46E500001E8F /* Images.xcassets */; };
+		D4E24AD11BAB46E500001E8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24AD01BAB46E500001E8F /* XCTest.framework */; };
+		D4E24AD21BAB46E500001E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24AB11BAB46E500001E8F /* Foundation.framework */; };
+		D4E24AD31BAB46E500001E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24AB51BAB46E500001E8F /* UIKit.framework */; };
+		D4E24ADB1BAB46E500001E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E24AD91BAB46E500001E8F /* InfoPlist.strings */; };
+		D4E24ADD1BAB46E500001E8F /* World_Map_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24ADC1BAB46E500001E8F /* World_Map_Challenge_SolutionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E24AD41BAB46E500001E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E24AA61BAB46E500001E8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E24AAD1BAB46E500001E8F;
+			remoteInfo = "World Map Challenge Solution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4E24AAE1BAB46E500001E8F /* World Map Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Map Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E24AB11BAB46E500001E8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4E24AB31BAB46E500001E8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4E24AB51BAB46E500001E8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4E24AB91BAB46E500001E8F /* World Map Challenge Solution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Map Challenge Solution-Info.plist"; sourceTree = "<group>"; };
+		D4E24ABB1BAB46E500001E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4E24ABD1BAB46E500001E8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4E24ABF1BAB46E500001E8F /* World Map Challenge Solution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Map Challenge Solution-Prefix.pch"; sourceTree = "<group>"; };
+		D4E24AC01BAB46E500001E8F /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
+		D4E24AC11BAB46E500001E8F /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
+		D4E24AC41BAB46E500001E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4E24AC61BAB46E500001E8F /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		D4E24AC71BAB46E500001E8F /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		D4E24AC91BAB46E500001E8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4E24ACF1BAB46E500001E8F /* World Map Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World Map Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E24AD01BAB46E500001E8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4E24AD81BAB46E500001E8F /* World Map Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Map Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
+		D4E24ADA1BAB46E500001E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4E24ADC1BAB46E500001E8F /* World_Map_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_Map_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E24AAB1BAB46E500001E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E24AB41BAB46E500001E8F /* CoreGraphics.framework in Frameworks */,
+				D4E24AB61BAB46E500001E8F /* UIKit.framework in Frameworks */,
+				D4E24AB21BAB46E500001E8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E24ACC1BAB46E500001E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E24AD11BAB46E500001E8F /* XCTest.framework in Frameworks */,
+				D4E24AD31BAB46E500001E8F /* UIKit.framework in Frameworks */,
+				D4E24AD21BAB46E500001E8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E24AA51BAB46E500001E8F = {
+			isa = PBXGroup;
+			children = (
+				D4E24AB71BAB46E500001E8F /* World Map Challenge Solution */,
+				D4E24AD61BAB46E500001E8F /* World Map Challenge SolutionTests */,
+				D4E24AB01BAB46E500001E8F /* Frameworks */,
+				D4E24AAF1BAB46E500001E8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E24AAF1BAB46E500001E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E24AAE1BAB46E500001E8F /* World Map Challenge Solution.app */,
+				D4E24ACF1BAB46E500001E8F /* World Map Challenge SolutionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E24AB01BAB46E500001E8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4E24AB11BAB46E500001E8F /* Foundation.framework */,
+				D4E24AB31BAB46E500001E8F /* CoreGraphics.framework */,
+				D4E24AB51BAB46E500001E8F /* UIKit.framework */,
+				D4E24AD01BAB46E500001E8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E24AB71BAB46E500001E8F /* World Map Challenge Solution */ = {
+			isa = PBXGroup;
+			children = (
+				D4E24AC01BAB46E500001E8F /* CCAppDelegate.h */,
+				D4E24AC11BAB46E500001E8F /* CCAppDelegate.m */,
+				D4E24AC31BAB46E500001E8F /* Main.storyboard */,
+				D4E24AC61BAB46E500001E8F /* CCViewController.h */,
+				D4E24AC71BAB46E500001E8F /* CCViewController.m */,
+				D4E24AC91BAB46E500001E8F /* Images.xcassets */,
+				D4E24AB81BAB46E500001E8F /* Supporting Files */,
+			);
+			path = "World Map Challenge Solution";
+			sourceTree = "<group>";
+		};
+		D4E24AB81BAB46E500001E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4E24AB91BAB46E500001E8F /* World Map Challenge Solution-Info.plist */,
+				D4E24ABA1BAB46E500001E8F /* InfoPlist.strings */,
+				D4E24ABD1BAB46E500001E8F /* main.m */,
+				D4E24ABF1BAB46E500001E8F /* World Map Challenge Solution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4E24AD61BAB46E500001E8F /* World Map Challenge SolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E24ADC1BAB46E500001E8F /* World_Map_Challenge_SolutionTests.m */,
+				D4E24AD71BAB46E500001E8F /* Supporting Files */,
+			);
+			path = "World Map Challenge SolutionTests";
+			sourceTree = "<group>";
+		};
+		D4E24AD71BAB46E500001E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4E24AD81BAB46E500001E8F /* World Map Challenge SolutionTests-Info.plist */,
+				D4E24AD91BAB46E500001E8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E24AAD1BAB46E500001E8F /* World Map Challenge Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E24AE01BAB46E500001E8F /* Build configuration list for PBXNativeTarget "World Map Challenge Solution" */;
+			buildPhases = (
+				D4E24AAA1BAB46E500001E8F /* Sources */,
+				D4E24AAB1BAB46E500001E8F /* Frameworks */,
+				D4E24AAC1BAB46E500001E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Map Challenge Solution";
+			productName = "World Map Challenge Solution";
+			productReference = D4E24AAE1BAB46E500001E8F /* World Map Challenge Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E24ACE1BAB46E500001E8F /* World Map Challenge SolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E24AE31BAB46E500001E8F /* Build configuration list for PBXNativeTarget "World Map Challenge SolutionTests" */;
+			buildPhases = (
+				D4E24ACB1BAB46E500001E8F /* Sources */,
+				D4E24ACC1BAB46E500001E8F /* Frameworks */,
+				D4E24ACD1BAB46E500001E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E24AD51BAB46E500001E8F /* PBXTargetDependency */,
+			);
+			name = "World Map Challenge SolutionTests";
+			productName = "World Map Challenge SolutionTests";
+			productReference = D4E24ACF1BAB46E500001E8F /* World Map Challenge SolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E24AA61BAB46E500001E8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rob Lipp";
+				TargetAttributes = {
+					D4E24ACE1BAB46E500001E8F = {
+						TestTargetID = D4E24AAD1BAB46E500001E8F;
+					};
+				};
+			};
+			buildConfigurationList = D4E24AA91BAB46E500001E8F /* Build configuration list for PBXProject "World Map Challenge Solution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4E24AA51BAB46E500001E8F;
+			productRefGroup = D4E24AAF1BAB46E500001E8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E24AAD1BAB46E500001E8F /* World Map Challenge Solution */,
+				D4E24ACE1BAB46E500001E8F /* World Map Challenge SolutionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E24AAC1BAB46E500001E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E24ACA1BAB46E500001E8F /* Images.xcassets in Resources */,
+				D4E24ABC1BAB46E500001E8F /* InfoPlist.strings in Resources */,
+				D4E24AC51BAB46E500001E8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E24ACD1BAB46E500001E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E24ADB1BAB46E500001E8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E24AAA1BAB46E500001E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E24AC21BAB46E500001E8F /* CCAppDelegate.m in Sources */,
+				D4E24ABE1BAB46E500001E8F /* main.m in Sources */,
+				D4E24AC81BAB46E500001E8F /* CCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E24ACB1BAB46E500001E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E24ADD1BAB46E500001E8F /* World_Map_Challenge_SolutionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E24AD51BAB46E500001E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E24AAD1BAB46E500001E8F /* World Map Challenge Solution */;
+			targetProxy = D4E24AD41BAB46E500001E8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4E24ABA1BAB46E500001E8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E24ABB1BAB46E500001E8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4E24AC31BAB46E500001E8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E24AC41BAB46E500001E8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E24AD91BAB46E500001E8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E24ADA1BAB46E500001E8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4E24ADE1BAB46E500001E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4E24ADF1BAB46E500001E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E24AE11BAB46E500001E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Map Challenge Solution/World Map Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "World Map Challenge Solution/World Map Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4E24AE21BAB46E500001E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Map Challenge Solution/World Map Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "World Map Challenge Solution/World Map Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4E24AE41BAB46E500001E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Map Challenge Solution.app/World Map Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Map Challenge Solution/World Map Challenge Solution-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "World Map Challenge SolutionTests/World Map Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D4E24AE51BAB46E500001E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Map Challenge Solution.app/World Map Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Map Challenge Solution/World Map Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "World Map Challenge SolutionTests/World Map Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E24AA91BAB46E500001E8F /* Build configuration list for PBXProject "World Map Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E24ADE1BAB46E500001E8F /* Debug */,
+				D4E24ADF1BAB46E500001E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E24AE01BAB46E500001E8F /* Build configuration list for PBXNativeTarget "World Map Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E24AE11BAB46E500001E8F /* Debug */,
+				D4E24AE21BAB46E500001E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4E24AE31BAB46E500001E8F /* Build configuration list for PBXNativeTarget "World Map Challenge SolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E24AE41BAB46E500001E8F /* Debug */,
+				D4E24AE51BAB46E500001E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4E24AA61BAB46E500001E8F /* Project object */;
+}
